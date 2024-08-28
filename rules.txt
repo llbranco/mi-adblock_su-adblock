@@ -1,0 +1,45 @@
+!# Regras de Bloqueio de Iframes
+
+##*[src*="google_ads_iframe/248424177/stackoverflow.com/sb/question-pages_0"]
+
+##*[src*="google_ads_iframe/248424177/stackoverflow.com/msb/question-pages_0"]
+
+##*[src*="google_ads_iframe/1254144,22532470973/itechtics_com-medrectangle-2_0"]
+
+##*[src*="google_ads_iframe/1254144,22532470973/itechtics_com-narrow-sky-1_0"]
+
+##*[id*="aswift_1"]
+
+##*[id*="google-anno-sa"]
+
+##*[id*="oneall_social_login_overall_header_content_before_3818741"]
+
+
+!# Regras de Bloqueio de Elementos CSS
+
+##.google-auto-placed > .adsbygoogle.adsbygoogle-noablate
+
+##.sidebar > ul:nth-of-type(1) > div.google-auto-placed.ap_container:nth-of-type(1) > .adsbygoogle.adsbygoogle-noablate
+
+##.ns-v8s8e-e-1.column-container.banner-large-board.flex-filler
+
+##.sm-module.sm-block-spacing > .panel
+
+##.panel.post.sm-block-container.sm-block-spacing
+
+##.google-auto-placed.ap_container:nth-of-type(2) > .adsbygoogle.adsbygoogle-noablate
+
+
+!# Ocultar qualquer elemento com ID que começa com 'aswift_' seguido por números
+
+##*[id^="aswift_"]
+
+
+!# Ocultar qualquer elemento com ID que começa com 'aswift_' seguido por números e '_host'
+
+##*[id^="aswift_"][id$="_host"]
+
+
+!# Ocultar elementos com a classe 'adsbygoogle' dentro de um elemento com a classe 'adv_titles' seguido por qualquer número
+
+##.adv_titles\d+ > .adsbygoogle
